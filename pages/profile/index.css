@@ -1,0 +1,122 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-grey-2);
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button_return {
+    width: 169px;
+    height: 38px;
+    background-color: var(--color-grey-6);
+    color: var(--color-grey-1);
+    font-size: 16px;
+    margin-top: 37px;
+    margin-left: 10px;
+    border: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.button_return:hover{
+    filter: brightness(1.2);
+}
+.user_container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+.user_container > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 150px;
+    border: 2px solid var(--color-grey-7);
+}
+.name_container {
+    margin-top: 15px;
+    margin-left: 10px;
+    color:var(--color-grey-7)
+}
+.name_container p {
+    color: var(--color-grey-6);
+}
+
+#repo_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 30px;
+}
+#repo_container > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 381px;
+    height: 243px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: var(--color-grey-6);
+}
+#repo_container > li:hover{
+    background-color: var(--color-grey-6);
+    filter: brightness(1.2);
+}
+#repo_container > li > h3 {
+    color: var(--color-grey-1);
+    font-weight: 500;
+    font-size: 20px;
+    width: 263px;
+    height: 24px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+#repo_container > li > p {
+    color: var(--color-grey-1);
+    font-weight: 400;
+    font-size: 14px;
+    width: 327px;
+    height: 63px;
+}
+.div_button {
+    color: var(--color-grey-1);
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-right: 200px;
+}
+.div_button > button {
+    color: var(--color-grey-1);
+    font-size: 15px;
+}
+.div_button > button:hover {
+    color: var(--color-grey-7);
+    background-color: var(--color-grey-1);
+    border: transparent;
+}
+
+.button_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+    gap: 10px;
+    width: 123px;
+    height: 36px;
+    background-color: transparent;
+    color: var(--color-grey-7);
+    border: 2px solid var(--color-grey-1);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-right: 10px;
+}
